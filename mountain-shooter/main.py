@@ -2,8 +2,8 @@ import pygame
 
 print('Setup Start')
 pygame.init()
-windoww = pygame.display.set_mode(size=(600, 480))
-print('Setup End') # aqui faço a criação da janela com tamanho especificado
+windoww = pygame.display.set_mode(size=(600, 480)) # aqui faço a criação da janela com tamanho especificado
+print('Setup End')
 
 while True:
     #chek all events
